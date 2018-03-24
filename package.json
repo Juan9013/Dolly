@@ -1,0 +1,29 @@
+{
+  "name": "dolly",
+  "version": "1.0.0",
+  "description": "Juego intantil para descubrir nuevas palabras",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucyloules/Dolly.git"
+  },
+  "keywords": [
+    "juego",
+    "infantil",
+    "palabras"
+  ],
+  "author": "Lucia Lagos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucyloules/Dolly/issues"
+  },
+  "homepage": "https://github.com/lucyloules/Dolly#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.1"
+  }
+}
