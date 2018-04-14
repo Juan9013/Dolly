@@ -48,7 +48,7 @@
             <div class="form-group">
               <input type="submit" name="submit" id="submit" class="btn btn-brand btn-block mb-4" value ="Acceder">
               <p class="small text-center text-gray-soft">¿Aún no tienes cuenta?
-                <a href="#">Registrate</a>
+                <a href="#">Regístrate</a>
               </p>
             </div>
           </form>
@@ -120,6 +120,23 @@
 
 <section id="game">
   <div class="container">
+<div class="row">
+  <div class="col-sm-3 col-sm-offset-3 box">
+
+  </div>
+  <div class="col-sm-3 box">
+    <p id="num-wins">Presiona la Barra Espaciadora para comenzar!</p>
+
+    <p>Palabra secreta:</p>
+    <p id="current-word">¿Cuál podría ser?</p>
+
+    <p>Intentos restantes: </p>
+    <p id="guesses-remaining">15</p>
+
+    <P>Letras adivinadas:</P>
+    <p id="letters-guessed">Ninguna hasta el momento</p>
+  </div>
+</div>
     <div class="row">
       <div class="col-10">
         <canvas id="canvas">
@@ -145,6 +162,7 @@ crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
 crossorigin="anonymous"></script>
 <script src="assets/js/app.js"></script>
+<script src="assets/js/dollyGame.js"></script>
 </body>
 
 </html>
