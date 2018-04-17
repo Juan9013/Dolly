@@ -1,5 +1,5 @@
 {
-  "name": "dolly",
+  "name": "dollygame",
   "version": "1.0.0",
   "description": "Juego intantil para descubrir nuevas palabras",
   "main": "index.js",
@@ -23,7 +23,9 @@
   "homepage": "https://github.com/lucyloules/Dolly#readme",
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "firebase": "^4.12.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.1"
-  }
+  },
+  "devDependencies": {}
 }
